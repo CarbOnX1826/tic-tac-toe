@@ -57,6 +57,7 @@ const check_for_winner = () =>
   let res = check_match()
   if (res == player) {
     winner.innerText = "Winner is player!!";
+    window.location.href='https://quizmachine.000webhostapp.com/09ibyvg87g6.html';
     winner.classList.add("playerWin");
     board_full = true
   } else if (res == computer) {
